@@ -1,7 +1,8 @@
 /**
  * BTT_Octopus_PRO_V 1.0.1
  * 
- * last updated 31.03.2024
+ * last updated 07.04.2024
+ * anycubic mega zero 2 with octopus pro board
  * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -65,7 +66,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Franky, printer)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Alex, 3Dprinter)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 // @section machine
