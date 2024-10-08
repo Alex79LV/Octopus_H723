@@ -3528,9 +3528,9 @@
 //#define RGBW_LED
 
 #if ANY(RGB_LED, RGBW_LED)
-  #define RGB_LED_R_PIN 25 // old 34
-  #define RGB_LED_G_PIN 27 // old 43
-  #define RGB_LED_B_PIN 29 // old 35
+  #define RGB_LED_R_PIN 25 // old 34    25
+  #define RGB_LED_G_PIN 27 // old 43    27
+  #define RGB_LED_B_PIN 29 // old 35    29
   //#define RGB_LED_W_PIN -1
 #endif
 
@@ -3544,7 +3544,7 @@
 // Support for Adafruit NeoPixel LED driver
 #define NEOPIXEL_LED
 #if ENABLED(NEOPIXEL_LED)
-  #define NEOPIXEL_TYPE          NEO_RGB // NEO_GRBW, NEO_RGBW, NEO_GRB, NEO_RBG, etc.
+  #define NEOPIXEL_TYPE          NEO_RGB // NEO_GRBW, NEO_RGBW, NEO_GRB, NEO_RBG, etc. NEO-BRG
                                           // See https://github.com/adafruit/Adafruit_NeoPixel/blob/master/Adafruit_NeoPixel.h
   //#define NEOPIXEL_PIN                4 // LED driving pin
   //#define NEOPIXEL2_TYPE  NEOPIXEL_TYPE
@@ -3568,9 +3568,9 @@
   // Use some of the NeoPixel LEDs for static (background) lighting
   //#define NEOPIXEL_BKGD_INDEX_FIRST   0 // Index of the first background LED
   //#define NEOPIXEL_BKGD_INDEX_LAST    5 // Index of the last background LED
-  //#define NEOPIXEL_BKGD_COLOR         { 255, 255, 255, 0 }  // R, G, B, W
+#define NEOPIXEL_BKGD_COLOR         { 238, 224, 188, 0 }  // R, G, B, W
   //#define NEOPIXEL_BKGD_TIMEOUT_COLOR {  25,  25,  25, 0 }  // R, G, B, W
-  //#define NEOPIXEL_BKGD_ALWAYS_ON       // Keep the backlight on when other NeoPixels are off
+#define NEOPIXEL_BKGD_ALWAYS_ON       // Keep the backlight on when other NeoPixels are off
 #endif
 
 /**
