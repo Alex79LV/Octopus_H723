@@ -1,7 +1,8 @@
 /**
  * BTT_Octopus_PRO_V 1.0.1
+ * SW_V1.0
  * 
- * last updated 07.04.2024
+ * last updated 11.10.2024
  * anycubic mega zero 2 with octopus pro board
  * 
  * Marlin 3D Printer Firmware
